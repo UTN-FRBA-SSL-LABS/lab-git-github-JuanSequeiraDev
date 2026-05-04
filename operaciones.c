@@ -13,13 +13,13 @@ int restar(const int a,const int b) {
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
+
 // Multiplicar, recibe dos numeros enteros y devuelvo su producto. Por ejemplo, multiplicar(3, 4) devuelve 12.
 int multiplicar(const int a,const int b) {
     return a * b;
 }
-
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
 int esPar(int n) {
-    return (n % 2) == 0; /* version main */
+    return (n % 2) == 0;
 }
